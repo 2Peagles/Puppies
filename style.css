@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+body{ 
+  background: azure;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size:25px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.header { 
+  background:url(spencerandsteven.png);
+  min-height: 400px;
+  max-height: 550px;
+  min-width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  outline: 15px solid pink;
+
+}
+h1 {
+    color:#48d1cc;
+    font-family:'Caveat',cursive;
+    font-size: 130px;
+    background-color: black;
+    opacity: 70%;
+
+}
+
+h2{color: #48d1cc;
+  font-family: 'Caveat', cursive;
+  font-size: xx-large;
+}
+
+ul{list-style-type: none;
+}
+.boxmodel{display:inline-block;
+          padding: 10px 
+}
+
+input{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding:10px,30px;
+  border:1px, solid black;
+  font-size:75%;
+  text-transform: capitalize;
+}
+
+textarea{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding:10px,30px;
+  border:1px, solid black;
+  font-size:75%;
+  text-transform: capitalize;
+}
+
+button:hover{
+  color:#48d1cc;
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+  border: 2px solid black;
+  font-size: 150%;
+  background-color: white;
+  padding-top: 7px;
+}
+.button{ 
+  color:#48d1cc;
+  border: 2px solid black;
+  font-size: 130%;
+  background-color: white;
+  }
+button{padding-top: 2px;}
+
+a{text-decoration: none;
+  color:rgb(222, 49, 99);
+  transition: 0.1s;
+  margin:0 2px;
+}
+
+.facebook {color:blue}
+.facebook:hover{color:#6495ED}
+.instagram:hover{color:rgb(247, 176, 248);
+}
+
+.img:hover{opacity: 50%;
+width:300;
+height:350;
+}
+
+body{
+  margin:0;
+}
+.grid-wrapper{
+  display:grid;
+  grid:gap 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+ 
+}
+.box > img {
+  width:100%;
+  height:100%;
+}
+.box {
+  height:350px;
+  width:300px;
+  margin: 10px;
+}
+.container{
+  cursor:pointer;
+  color:#FFF;
+  font-size:2em;
+  border:1px solid #eee;
+  border-radius:4px; 
+  border:1px solid #aaa;
+  margin:10px;
+  text-decoration:none;        
+  -webkit-transition: all 0.3s linear;
+   -khtml-transition: all 0.3s linear;
+     -moz-transition: all 0.3s linear;
+       -o-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+}
+footer{
+  text-align:center;
+} 
