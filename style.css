@@ -104,6 +104,7 @@ body{
   height:350px;
   width:300px;
   margin: 10px;
+  display:inline-block;
 }
 .container{
   cursor:pointer;
