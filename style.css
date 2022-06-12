@@ -124,3 +124,10 @@ body{
 footer{
   text-align:center;
 } 
+
+.slideshow .slide{
+  display: none;
+}
+.slideshow .slide.active{
+  display: block;
+}
